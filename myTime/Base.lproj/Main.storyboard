@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--BadgeViewController-->
+        <!--FirstViewController-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController id="9pv-A4-QxB" userLabel="BadgeViewController" customClass="FirstViewController" customModule="myTime" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9pv-A4-QxB" userLabel="FirstViewController" customClass="FirstViewController" customModule="myTime" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tsR-hK-woN" userLabel="BadgeView">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -64,6 +64,8 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Badge" image="checkmark.seal" catalog="system" id="acW-dT-cKf"/>
                     <connections>
+                        <outlet property="BadgeInButton" destination="uD6-y4-e82" id="Aou-BO-xYN"/>
+                        <outlet property="BadgeOutButton" destination="Anf-ZO-c1Q" id="uZh-TH-G9d"/>
                         <outlet property="dateLabel" destination="wle-9y-wLb" id="OKk-BG-k2x"/>
                         <outlet property="timeLabel" destination="pQH-qh-FpT" id="q1B-VV-j57"/>
                     </connections>

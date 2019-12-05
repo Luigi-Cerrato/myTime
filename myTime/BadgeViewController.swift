@@ -13,14 +13,23 @@ class FirstViewController: UIViewController {
     @IBOutlet weak var timeLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
     
+    @IBOutlet weak var BadgeInButton: UIButton!
+    
+    @IBOutlet weak var BadgeOutButton: UIButton!
+    
     var timer = Timer()
     
     override func viewDidLoad() {
         super.viewDidLoad()
             getTime()
+            setup()
         
     }
-    
+    func setup(){
+        BadgeInButton.setTitle("Badge In", for: .normal)
+        BadgeOutButton.setTitle("Badge Out" , for: .normal)
+        
+    }
     func getTime(){
         dateLabel.text = DateFormatter.localizedString(from: Date(), dateStyle: .long, timeStyle: .none)
             timeLabel.text = DateFormatter.localizedString(from: Date(), dateStyle: .none, timeStyle: .short)
@@ -34,5 +43,11 @@ class FirstViewController: UIViewController {
     }
 
 }
+
+enum state {
+    case  Working
+    case  NotWorking
+}
+
 
 
