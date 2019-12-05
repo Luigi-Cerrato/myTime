@@ -16,6 +16,7 @@
 		FD889BF22398EB5F00FB3576 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD889BF02398EB5F00FB3576 /* LaunchScreen.storyboard */; };
 		FD889BFD2398EB5F00FB3576 /* myTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD889BFC2398EB5F00FB3576 /* myTimeTests.swift */; };
 		FD889C082398EB5F00FB3576 /* myTimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD889C072398EB5F00FB3576 /* myTimeUITests.swift */; };
+		FDA4740D2399366600B78494 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4740C2399366600B78494 /* RoundedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		FD889C032398EB5F00FB3576 /* myTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD889C072398EB5F00FB3576 /* myTimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTimeUITests.swift; sourceTree = "<group>"; };
 		FD889C092398EB6000FB3576 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDA4740C2399366600B78494 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				FD889BE72398EB5E00FB3576 /* BadgeViewController.swift */,
 				FD889BE92398EB5E00FB3576 /* CalendarViewController.swift */,
 				FD889BEB2398EB5E00FB3576 /* Main.storyboard */,
+				FDA4740C2399366600B78494 /* RoundedButton.swift */,
 				FD889BEE2398EB5F00FB3576 /* Assets.xcassets */,
 				FD889BF02398EB5F00FB3576 /* LaunchScreen.storyboard */,
 				FD889BF32398EB5F00FB3576 /* Info.plist */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD889BEA2398EB5E00FB3576 /* CalendarViewController.swift in Sources */,
+				FDA4740D2399366600B78494 /* RoundedButton.swift in Sources */,
 				FD889BE82398EB5E00FB3576 /* BadgeViewController.swift in Sources */,
 				FD889BE42398EB5E00FB3576 /* AppDelegate.swift in Sources */,
 				FD889BE62398EB5E00FB3576 /* SceneDelegate.swift in Sources */,

@@ -9,6 +9,12 @@
 import UIKit
 
 class FirstViewController: UIViewController {
+    
+    var userStatus: UserLogInStatus {
+        ( UIApplication.shared.delegate as! AppDelegate).userStatus
+        
+    }
+    
     @IBOutlet weak var timeLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
     
@@ -22,6 +28,7 @@ class FirstViewController: UIViewController {
         super.viewDidLoad()
             getTime()
             setup()
+       
         
     }
     func setup(){
@@ -43,11 +50,24 @@ class FirstViewController: UIViewController {
 
     @IBAction func BadgeIn(_ sender: UIButton) {
         sender.isHidden = true
+       
+        
+       
+        BadgeOutButton.isHidden = false
     }
     
     @IBAction func BadgeOut(_ sender: UIButton) {
         sender.isHidden = true
+        
+   
+        BadgeInButton.isHidden = false
     }
+}
+
+enum UserLogInStatus {
+    case loggedIn
+    case loggedOut
+ 
 }
 
 
