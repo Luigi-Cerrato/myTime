@@ -9,7 +9,6 @@
 import UIKit
 
 class FirstViewController: UIViewController {
-
     @IBOutlet weak var timeLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
     
@@ -42,12 +41,16 @@ class FirstViewController: UIViewController {
         timeLabel.text = DateFormatter.localizedString(from: Date(), dateStyle: .none, timeStyle: .short)
     }
 
+    @IBAction func BadgeIn(_ sender: UIButton) {
+        sender.isHidden = true
+    }
+    
+    @IBAction func BadgeOut(_ sender: UIButton) {
+        sender.isHidden = true
+    }
 }
 
-enum state {
-    case  Working
-    case  NotWorking
-}
+
 
 
 
