@@ -28,6 +28,7 @@ class FirstViewController: UIViewController {
         super.viewDidLoad()
             getTime()
             setup()
+        
        
         
     }

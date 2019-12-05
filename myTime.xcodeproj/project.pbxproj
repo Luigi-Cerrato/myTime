@@ -17,6 +17,7 @@
 		FD889BFD2398EB5F00FB3576 /* myTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD889BFC2398EB5F00FB3576 /* myTimeTests.swift */; };
 		FD889C082398EB5F00FB3576 /* myTimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD889C072398EB5F00FB3576 /* myTimeUITests.swift */; };
 		FDA4740D2399366600B78494 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4740C2399366600B78494 /* RoundedButton.swift */; };
+		FDA4745223994C5500B78494 /* myYimeDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FDA4745023994C5500B78494 /* myYimeDataModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		FD889C072398EB5F00FB3576 /* myTimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTimeUITests.swift; sourceTree = "<group>"; };
 		FD889C092398EB6000FB3576 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDA4740C2399366600B78494 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		FDA4745123994C5500B78494 /* myYimeDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = myYimeDataModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				FD889BE92398EB5E00FB3576 /* CalendarViewController.swift */,
 				FD889BEB2398EB5E00FB3576 /* Main.storyboard */,
 				FDA4740C2399366600B78494 /* RoundedButton.swift */,
+				FDA4745023994C5500B78494 /* myYimeDataModel.xcdatamodeld */,
 				FD889BEE2398EB5F00FB3576 /* Assets.xcassets */,
 				FD889BF02398EB5F00FB3576 /* LaunchScreen.storyboard */,
 				FD889BF32398EB5F00FB3576 /* Info.plist */,
@@ -270,6 +273,7 @@
 				FD889BE82398EB5E00FB3576 /* BadgeViewController.swift in Sources */,
 				FD889BE42398EB5E00FB3576 /* AppDelegate.swift in Sources */,
 				FD889BE62398EB5E00FB3576 /* SceneDelegate.swift in Sources */,
+				FDA4745223994C5500B78494 /* myYimeDataModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,6 +602,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FDA4745023994C5500B78494 /* myYimeDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FDA4745123994C5500B78494 /* myYimeDataModel.xcdatamodel */,
+			);
+			currentVersion = FDA4745123994C5500B78494 /* myYimeDataModel.xcdatamodel */;
+			path = myYimeDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = FD889BD82398EB5E00FB3576 /* Project object */;
 }
