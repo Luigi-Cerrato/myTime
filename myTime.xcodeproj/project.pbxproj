@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		FD889BE42398EB5E00FB3576 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD889BE32398EB5E00FB3576 /* AppDelegate.swift */; };
 		FD889BE62398EB5E00FB3576 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD889BE52398EB5E00FB3576 /* SceneDelegate.swift */; };
-		FD889BE82398EB5E00FB3576 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD889BE72398EB5E00FB3576 /* FirstViewController.swift */; };
-		FD889BEA2398EB5E00FB3576 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD889BE92398EB5E00FB3576 /* SecondViewController.swift */; };
+		FD889BE82398EB5E00FB3576 /* BadgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD889BE72398EB5E00FB3576 /* BadgeViewController.swift */; };
+		FD889BEA2398EB5E00FB3576 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD889BE92398EB5E00FB3576 /* CalendarViewController.swift */; };
 		FD889BED2398EB5E00FB3576 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD889BEB2398EB5E00FB3576 /* Main.storyboard */; };
 		FD889BEF2398EB5F00FB3576 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD889BEE2398EB5F00FB3576 /* Assets.xcassets */; };
 		FD889BF22398EB5F00FB3576 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD889BF02398EB5F00FB3576 /* LaunchScreen.storyboard */; };
@@ -39,8 +39,8 @@
 		FD889BE02398EB5E00FB3576 /* myTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD889BE32398EB5E00FB3576 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD889BE52398EB5E00FB3576 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FD889BE72398EB5E00FB3576 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		FD889BE92398EB5E00FB3576 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		FD889BE72398EB5E00FB3576 /* BadgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeViewController.swift; sourceTree = "<group>"; };
+		FD889BE92398EB5E00FB3576 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		FD889BEC2398EB5E00FB3576 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD889BEE2398EB5F00FB3576 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD889BF12398EB5F00FB3576 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -103,8 +103,8 @@
 			children = (
 				FD889BE32398EB5E00FB3576 /* AppDelegate.swift */,
 				FD889BE52398EB5E00FB3576 /* SceneDelegate.swift */,
-				FD889BE72398EB5E00FB3576 /* FirstViewController.swift */,
-				FD889BE92398EB5E00FB3576 /* SecondViewController.swift */,
+				FD889BE72398EB5E00FB3576 /* BadgeViewController.swift */,
+				FD889BE92398EB5E00FB3576 /* CalendarViewController.swift */,
 				FD889BEB2398EB5E00FB3576 /* Main.storyboard */,
 				FD889BEE2398EB5F00FB3576 /* Assets.xcassets */,
 				FD889BF02398EB5F00FB3576 /* LaunchScreen.storyboard */,
@@ -262,8 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD889BEA2398EB5E00FB3576 /* SecondViewController.swift in Sources */,
-				FD889BE82398EB5E00FB3576 /* FirstViewController.swift in Sources */,
+				FD889BEA2398EB5E00FB3576 /* CalendarViewController.swift in Sources */,
+				FD889BE82398EB5E00FB3576 /* BadgeViewController.swift in Sources */,
 				FD889BE42398EB5E00FB3576 /* AppDelegate.swift in Sources */,
 				FD889BE62398EB5E00FB3576 /* SceneDelegate.swift in Sources */,
 			);
